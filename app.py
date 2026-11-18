@@ -2302,30 +2302,6 @@ elif page == "Insights & Decisions":
 
     st.divider()
 
-    st.markdown("### Limitations and interpretation")
-
-    st.warning(
-        """
-        This prototype uses unsupervised anomaly detection.
-
-        • An anomaly is not confirmed fraud.
-
-        • The dataset contains no confirmed fraud labels.
-
-        • Merchant IDs do not identify actual merchant names.
-
-        • The source currency is unspecified.
-
-        • Branch, ATM and Online are the only observed channels.
-
-        • PreviousTransactionDate contains inconsistent chronology
-          and has not been used as a historical feature.
-
-        • Findings describe this dataset and should not be treated
-          as measured performance of Kenyan banks.
-        """
-    )
-
 
     st.markdown(
         "### Future development for Kenyan financial institutions"
